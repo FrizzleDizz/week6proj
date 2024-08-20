@@ -1,0 +1,51 @@
+/* Navigation bar & logo */
+.navparent {
+    /* Box model application */
+        width: 97%;
+        height: 75px;
+        background-color: rgb(90, 83, 83);
+        padding: 5px;
+        border: 8px solid gray;
+        margin: 1px;
+    /* Flex application */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    /* Positioning application */
+        position: fixed;    
+        
+}
+
+/* Navigation bar links */
+.navchildren {
+    /* Flex / Box model / Positioning application */
+        display: flex;
+        width: 40%;
+        top: 18px;
+        left: 200px;
+        flex-direction: row;
+        justify-content: space-between;
+        position: absolute;
+        
+        float: left;
+        color: black;
+        text-align: center;
+        padding: 12px;
+        text-decoration: underline;
+        font-size: 22px;
+        line-height: 25px;
+        border-radius: 4px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            
+    }
+
+/* Boundary to prevent nav overlap  */
+.navboundary {
+        width: 100%;
+        height: 120px;
+        padding: 5px;
+        margin: -10px;
+    
+        position: static;    
+    
+    }
